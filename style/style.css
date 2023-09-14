@@ -140,6 +140,7 @@ main h2 {
     width: 100%;
     margin-top: -200px;
     overflow-x: auto;
+    gap: 20px;
 }
 .cards::-webkit-scrollbar{
     -webkit-appearance: none;
@@ -159,14 +160,25 @@ main h2 {
     color: #fff;
     bottom: 15px;
     padding: 0 20px;
+    display: none;
 }
 /*  */
 
+.cards2 h3{
+    position: absolute;
+    color: #fff;
+    bottom: 50px;
+    /* padding: 0 20px; */
+    z-index: 100;
+    max-width: 250px;
+}
 .cards2{
     display: flex;
     width: 100%;
     margin-top: 50px;
     overflow-x: auto;
+    position: relative;
+    gap: 20px;
 }
 .cards2::-webkit-scrollbar{
     -webkit-appearance: none;
@@ -213,19 +225,6 @@ main h2 {
     line-height: 77px;
     left: 50px;
 }
-
-
-.main-cards{
-    padding: 20px;
-    overflow-x: auto;
-    max-width: 1400px;
-}
-
-.main-cards::-webkit-scrollbar{
-    -webkit-appearance: none;
-}
-
 .main-cards .cards{
     margin-top: 50px;
-    gap: 20px;
 }
