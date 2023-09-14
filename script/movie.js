@@ -50,7 +50,7 @@ function renderCards(data){
             <span>Released Data: ${data.release_date}</span>
             <p>Original Language: ${data.original_language}</p>
             <a href="index.html">
-            <button style="background: dodgerblue .addEventListener('type', listener, options); color: #fff;">Hompage</button>
+            <button style="background: dodgerblue; .addEventListener('type', listener, options); color: #fff;">Hompage</button>
             </a>
         </div>
         
