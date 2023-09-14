@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <title>Movie</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="hewader__nav">
+            <div class="container">
+                <nav>
+                    <a href="index.html">
+                        <img src="./images/logo.svg" alt="logo vebsite">
+                    </a>
+                    
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">TV-SHOWS</a></li>
+                        <li><a href="#">MOVIES</a></li>
+                        <li><a href="#">NEW</a></li>
+                        <li><a href="#">POPULAR</a></li>
+                    </ul>
+    
+                    <select id="select">
+                        <option value="" selected disabled>COUNTRIES</option>
+                        <option value="">USA</option>
+                        <option value="">UZB</option>
+                    </select>
+    
+                    <input type="text" placeholder="Search" id="search">
+                </nav>
+            </div>
+        </div>
+        
+        <div class="hero__wrapper">
+            <div class="hero__wrapper-content">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+            
+                <div class="hero__wrapper-title">
+                    <h1>Darlings</h1>
+
+                    <div class="buttons">
+                        <button class="btn">Play</button>
+                        <button class="btn">🛈 More Info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <main>
+        <!-- <div class="container"> -->
+            <section class="cards">
+                    <!-- card dinamic -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+    
+                        </div>
+                    </div>
+                    
+            </section>
+    </main>
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+</body>
+</html>

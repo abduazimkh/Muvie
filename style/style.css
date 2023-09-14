@@ -1,0 +1,231 @@
+body{
+    background-color: #000;
+    font-family: sans-serif;
+}
+h1 p, ::selection{
+    color: #fff;
+    background-color: red;
+}
+
+.container{
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    position: fixed;
+    z-index: 100;
+    background-color: #0000008f;
+    width: 100%;
+    left: 0;
+
+}
+
+nav ul {
+    display: flex;
+    align-content: center;
+    flex: 1;
+    gap: 24px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    padding: 5px 0;
+    border-bottom: 2px solid #fff;
+}
+
+input, button, select{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 8px 10px;
+    font-size: 16px;
+}
+
+
+input{
+    background-color: #00000000;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 0 100px;
+
+}
+input::placeholder{
+    color: #fff;
+}
+
+.hewader__nav{
+    background-color: #00000057;
+}
+
+header{
+    position: relative;
+
+}
+
+.hero__wrapper{
+    position: relative;
+    width: 100%;
+}
+
+.buttons{
+    position: absolute;
+    top: 400px;
+    z-index: 10;
+    left: 100px;
+}
+
+.btn{
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-left: 30px;
+    color: #000;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: orangered;
+    color: #fff;
+}
+
+.btn:active{
+    transform: scale(.9);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main{
+    position: relative;
+    z-index: 10;
+}
+main h2 {
+    position: absolute;
+    color: #fff;
+    margin-top: -50px;
+    font-size: 1.75rem;
+    margin-left: 15px;
+}
+
+
+
+.cards{
+    display: flex;
+    width: 100%;
+    margin-top: -200px;
+    overflow-x: auto;
+}
+.cards::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.cards img{
+    width: 200px;
+    height: 300px;
+}
+.cards .swiper-slide{
+    width: 230px;
+    object-fit: 100%;
+}
+
+.cards h3{
+    position: absolute;
+    color: #fff;
+    bottom: 15px;
+    padding: 0 20px;
+}
+/*  */
+
+.cards2{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    overflow-x: auto;
+}
+.cards2::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.cards2 img{
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+}
+.cards2 .swiper-slide{
+    width: 420px;
+    object-fit: 100%;
+}
+
+.wrapper{
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+.wrapper img{
+    width: 35%;
+}
+
+.wrapper .div1{
+    display: flex;
+    gap: 100px;
+    color: #fff;
+}
+.div2{
+    padding: 20px;
+    width: 50%;
+}
+
+
+.b-name{
+    position: absolute;
+    z-index: 5;
+    color: #fff;
+    top: 250px;
+    font-family: "Inspiration", sans-serif;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 77px;
+    left: 50px;
+}
+
+
+.main-cards{
+    padding: 20px;
+    overflow-x: auto;
+    max-width: 1400px;
+}
+
+.main-cards::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.main-cards .cards{
+    margin-top: 50px;
+    gap: 20px;
+}
