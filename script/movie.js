@@ -49,6 +49,9 @@ function renderCards(data){
             <span> <mark>${data.vote_count } </mark> &nbsp; Vote count  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;</span>
             <span>Released Data: ${data.release_date}</span>
             <p>Original Language: ${data.original_language}</p>
+            <a href="index.html">
+            <button style="background: dodgerblue .addEventListener('type', listener, options); color: #fff;">Hompage</button>
+            </a>
         </div>
         
     `;
