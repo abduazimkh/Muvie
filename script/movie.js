@@ -92,12 +92,11 @@ function renderCards2(data){
         const div = document.createElement("div");
         div.classList = "swiper-slide";
         div.innerHTML = `
-            
             <a href="./movue.html?movieId=${card.id}">
                 <img src="${ sors+card.backdrop_path }" alt="card img" />
             </a>
             <h3>${card.original_name || card.original_title}</h3>
-        `
+        `;
         cards2.appendChild(div)
     })
 
