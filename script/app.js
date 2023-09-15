@@ -91,7 +91,7 @@ function renderBanner(data){
             <img src="${sors+banner.backdrop_path}" alt="hero image"/>
             <p class="b-name">${banner.original_title}</p>
         `
-        mainSwiper.appendChild(div) 
+        mainSwiper.appendChild(div);
     })
 }
 
