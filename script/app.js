@@ -50,9 +50,9 @@ function renderCards1(data){
 for(el in arr){
     const cards2 = document.createElement("div")
     cards2.classList = 'cards2'
-    cards2.innerHTML = `
-        <h2>All Muvies</h2>
-    `;
+    // cards2.innerHTML = `
+    //     <h2>All Muvies</h2>
+    // `;
     main.appendChild(cards2);
 
 fetch(arr[el], options)
@@ -95,9 +95,6 @@ function renderBanner(data){
     })
 }
 
-
-
 nav.addEventListener("submit", (e) => {
     console.log(search.value);
-
 })
