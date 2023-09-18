@@ -74,7 +74,7 @@ header{
 .hero__wrapper{
     position: relative;
     width: 100%;
-    height: 800px;
+    height: 850px;
 }
 
 .buttons{
@@ -224,4 +224,151 @@ main h2 {
 }
 .main-cards .cards{
     margin-top: 50px;
+}
+
+footer{
+    padding: 50px 30px;
+    border-top: 3px solid grey;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+footer ul:first-child :last-child{
+    max-width: 370px;
+    margin-top: 30px;
+
+}
+
+footer ul:last-child{
+    max-width: 380px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 46px;
+    transition: all .3s ease;
+}
+
+footer ul li a:hover{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 1220px){
+    nav{
+        gap: 20px;
+        padding: 20px;
+    }
+    nav ul{
+        gap: 16px;
+    }
+    #select{
+        margin-right: -100px;
+    }
+    .b-name{
+        font-size: 3.75rem;
+        top: 150px;
+    }
+    .buttons{
+        top: 240px;
+        left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul {
+        display: none;
+    }
+    .hero__wrapper{
+        height: 600px;
+    }
+    .buttons{
+        top: 240px;
+        left: 50px;
+    }
+    .cards{
+        margin-left: -15px;
+    }
+    footer ul:last-child{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    nav{
+        padding: 5px;
+    }
+    input{
+        display: none;
+    }
+    #select{
+        display: none;
+    }
+    .b-name{
+        font-size: 2.75rem;
+        top: 100px;
+    }
+    .buttons{
+        top: 180px;
+        left: 50px;
+    }
+    .btn{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    main{
+        margin-top: -170px;
+    }
+    .cards{
+        margin-left: 0;
+    }
+    .cards img{
+        width: 150px;
+        height: 200px;
+    }
+    .cards .swiper-slide{
+        width: 160px;
+    }
+    .cards2 .swiper-slide{
+        width: 300px;
+
+    }
+    .cards2 img{
+        width: 300px;
+        height: 200px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    footer ul{
+        padding: 20px 0;
+    }
+    footer ul:nth-child(2){
+       display: none;
+    }
+
+}
+
+@media only screen and (max-width: 440px){
+    .b-name{
+        font-size: 2rem;
+        top: 80px;
+    }
+    .buttons{
+        display: none;
+    }
+    main{
+        margin-top: -250px;
+    }
 }

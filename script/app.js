@@ -89,7 +89,7 @@ function renderBanner(data){
         div.classList = "swiper-slide";
         div.innerHTML = `
             <img src="${sors+banner.backdrop_path}" alt="hero image"/>
-            <p class="b-name">${banner.original_title}</p>
+            <h1 class="b-name">${banner.original_title}</h1>
         `
         mainSwiper.appendChild(div);
     })
