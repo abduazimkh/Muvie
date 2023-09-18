@@ -201,6 +201,7 @@ main h2 {
 
 .wrapper img{
     width: 50%;
+    height: 500px;
 }
 
 .wrapper .div1{
@@ -208,6 +209,7 @@ main h2 {
     gap: 10px;
     color: #fff;
 }
+
 .div2{
     padding: 50px;
     width: 50%;
@@ -318,12 +320,6 @@ footer ul li a:hover{
         margin-bottom: 500px;
     }
 }
-@media only screen and (max-width: 800px){
-    main{
-        margin-top: -240px;
-    }
-}
-
 @media only screen and (max-width: 600px){
     nav{
         padding: 5px;
@@ -347,7 +343,7 @@ footer ul li a:hover{
         font-size: 12px;
     }
     main{
-        margin-top: -170px;
+        margin-top: 0;
     }
     .cards{
         margin-left: 0;
@@ -379,8 +375,11 @@ footer ul li a:hover{
     footer ul:nth-child(2){
        display: none;
     }
-    .div1{
-        margin-bottom: 150px;
+    .div1 img{
+        height: 300px;
+    }
+    main{
+        margin-top: -200px;
     }
 }
 
@@ -396,6 +395,6 @@ footer ul li a:hover{
         display: none;
     }
     main{
-        margin-top: -250px;
+        margin-top: -100px;
     }
 }
