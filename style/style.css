@@ -300,6 +300,12 @@ footer ul li a:hover{
     footer ul:last-child{
         display: none;
     }
+    .div1{
+        display: flex;
+        flex-direction: column;
+                justify-content: center;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 600px){
@@ -357,7 +363,9 @@ footer ul li a:hover{
     footer ul:nth-child(2){
        display: none;
     }
-
+    .div1{
+        margin-bottom: 150px;
+    }
 }
 
 @media only screen and (max-width: 440px){
