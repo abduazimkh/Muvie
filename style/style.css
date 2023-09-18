@@ -195,10 +195,12 @@ main h2 {
 
 .wrapper{
     padding: 40px;
+    height: 500px;
+    margin-bottom: 30px;
 }
 
 .wrapper img{
-    width: 35%;
+    width: 50%;
 }
 
 .wrapper .div1{
@@ -303,8 +305,22 @@ footer ul li a:hover{
     .div1{
         display: flex;
         flex-direction: column;
-                justify-content: center;
+        justify-content: center;
         align-items: center;
+    }
+    .div2{
+        width: 100%;
+    }
+    .wrapper img{
+        width: 100%;
+    }
+    .wrapper{
+        margin-bottom: 500px;
+    }
+}
+@media only screen and (max-width: 800px){
+    main{
+        margin-top: -240px;
     }
 }
 
@@ -369,6 +385,9 @@ footer ul li a:hover{
 }
 
 @media only screen and (max-width: 440px){
+    .mh2{
+        font-size: 16px;
+    }
     .b-name{
         font-size: 2rem;
         top: 80px;

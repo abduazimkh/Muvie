@@ -33,15 +33,15 @@ function renderCards(data){
     const div = document.createElement("div");
     div.classList = "div1"
     div.innerHTML= `
-        <img src="${sors+data.poster_path || sors+data.backdrop_path}" alt="img" />
+        <img src="${sors+data.backdrop_path}" alt="image" />
 
         <div class="div2">
             <h1>${data.original_title}</h1>
             <span>Movie ID: ${data.id}</span>
             <p>${data.overview}</p>
-            <h2>${data.vote_average}</h2>
+            <h2><i class="bi bi-star-fill" style="color: gold;"></i> ${data.vote_average}</h2>
             <span> <mark>${data.vote_count } </mark> &nbsp; Vote count  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;</span>
-            <span>Released Data: ${data.release_date}</span>
+            <span>Released Data: ${data.release_date.slice(0, 4)+ " - year, " + data.release_date.slice(5, 7)+ " - month, " + data.release_date.slice(8, 10)+ " - day "}</span>
             <p>Original Language: ${data.original_language}</p>
             <a href="index.html">
                 <button style="background: dodgerblue; color: #fff;">Home page</button>
