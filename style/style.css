@@ -384,6 +384,9 @@ footer ul li a:hover{
 }
 
 @media only screen and (max-width: 440px){
+    nav img{
+        display: none;
+    }
     .mh2{
         font-size: 16px;
     }
